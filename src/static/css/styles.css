@@ -39,12 +39,15 @@ body {
 
 .remove {
     padding-left: 0;
-    border: 2px solid red; 
     color: red; 
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     font-weight: bold;
 }
 
 button:focus {
-    border: 1px solid black;
+    border: 2px solid black;
+}
+
+.button:hover {
+    background-color: red;
 }
